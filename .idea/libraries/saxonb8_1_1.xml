@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="saxonb8-1-1">
+    <CLASSES>
+      <root url="file://C:/java_lib/saxonb8-1-1" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://C:/java_lib/saxonb8-1-1/doc/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://C:/java_lib/saxonb8-1-1/samples/java" />
+      <root url="file://C:/java_lib/saxonb8-1-1" />
+    </SOURCES>
+    <jarDirectory url="file://C:/java_lib/saxonb8-1-1" recursive="false" />
+    <jarDirectory url="file://C:/java_lib/saxonb8-1-1" recursive="false" type="SOURCES" />
+  </library>
+</component>
