@@ -15,7 +15,7 @@ public class Bubble extends Sort {
      * Checking int values occurs inside the int array a.
      *{@link Sort#swap(int[], int, int)}
      */
-  public void bubble(int a[]) {
+  public static int[] bubble(int[] a) {
           for (int i = 0; i < a.length; i++) {
               for (int j = i - 1; j >= 0; j--) {
                   if (a[j] > a[j + 1]) {
@@ -23,5 +23,6 @@ public class Bubble extends Sort {
                   }
               }
           }
-      }
+      return a;
+  }
 }

@@ -22,7 +22,7 @@ public class ArrayFiller {
         int[]a = new int[capacity];
             for (Integer i = 0; i < capacity; i++) {
                 a[i] = (int) Math.round(Math.random() * 100);
-            }
+        }
             return a;
     }
 
@@ -35,8 +35,8 @@ public class ArrayFiller {
                 int a[] = new int[capacity];
                 for (Integer i = 0; i < capacity; i++) {
                     a[i] = (int) Math.round(Math.random() * 100);
-                    Arrays.sort(a);
                 }
+                Arrays.sort(a);
                 return a;
             }
 

@@ -15,7 +15,7 @@ public class BubbleSortDown extends Sort{
      * Checking int values occurs inside the int array b.
      * {@link Sort#swap(int[], int, int)}
      */
-     public void bubbleSortDown(int []a) {
+     public static int[] bubbleSortDown(int[] a) {
             for (int i = a.length - 1; i >= 0; i--) {
                 for (int j = i - 1; j >= 0; j--) {
                     if (a[j] > a[i]) {
@@ -23,5 +23,6 @@ public class BubbleSortDown extends Sort{
                     }
                 }
             }
-        }
+         return a;
+     }
     }

@@ -73,7 +73,7 @@ public class Excel {
             }
             xssfChart.plot(data, bottomAxis, leftAxis);
         }
-        FileOutputStream file = new FileOutputStream("C:/Users/Home/Desktop/lab_01.xls");
+        FileOutputStream file = new FileOutputStream("C:/Users/Home/IdeaProjects/lab1/lab_01.xls");
         wb.write(file);
         file.close();
     }

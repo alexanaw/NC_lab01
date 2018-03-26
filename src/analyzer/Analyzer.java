@@ -52,7 +52,7 @@ public class Analyzer {
     public static ArrayList <Integer> getRes(){
         return res;
     }
-    public static  ArrayList <Integer> getTimeOfSort(){
+    public static ArrayList <Integer> getTimeOfSort(){
         return timeOfSort;
     }
 }

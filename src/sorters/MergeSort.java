@@ -13,8 +13,9 @@ public class MergeSort extends Sort  {
      * This method call the other method mergesort of this class with params.
      * {@link MergeSort#mergesort(int[], int[], int, int)}
      */
-   public void mergeSort(int a[]) {
+   public static int[] mergeSort(int[] a) {
         mergesort(a, new int[a.length],0,a.length-1);
+       return a;
    }
     /**
      * Method merge with params.
@@ -28,7 +29,7 @@ public class MergeSort extends Sort  {
 * Method determine the middle int of an array.
 * {@link MergeSort#merge(int[], int[], int, int)}
      */
-    private int[] mergesort(int[] a, int[] templist, int leftStart, int rightEnd) {
+    private static int[] mergesort(int[] a, int[] templist, int leftStart, int rightEnd) {
         if (leftStart >= rightEnd) {
            return a;
         } else {
@@ -47,7 +48,7 @@ public class MergeSort extends Sort  {
             * Comparing starts from the first int of the array and the last int from the array.
             * Checking int values occurs inside the int array c.
             */
-           private void merge(int[] d, int[] templist, int leftStart, int rightEnd) {
+           private static void merge(int[] d, int[] templist, int leftStart, int rightEnd) {
                int leftEnd = (rightEnd + leftStart) / 2;
                int rightStart = leftEnd + 1;
                int size = rightEnd - leftStart + 1;

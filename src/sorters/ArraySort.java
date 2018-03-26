@@ -1,6 +1,5 @@
 package sorters;
 
-
 import java.util.Arrays;
 /**
  * @author Bojchenko
@@ -15,7 +14,9 @@ public class ArraySort extends Sort{
      * Checking int values occurs inside the int array a.
      * This method print sorted array on the screen.
      */
-    public void arraySort(int a[]){
+    public static int[] arraySort(int[] a){
         Arrays.sort(a);
-    }
+        return a;
+            }
+
     }

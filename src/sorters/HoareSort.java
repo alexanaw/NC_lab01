@@ -18,9 +18,10 @@ public class HoareSort extends Sort{
      * This method call the other method sort of this class with params.
      * {@link HoareSort#sort(int[], int, int)}
      */
-   public void hoareSort (int a[]) {
+   public static int[] hoareSort(int[] a) {
         sort(a, 0, a.length-1);
-    }
+       return a;
+   }
     /**
      * Method exchange sort with params.
      * @param a is the int array with current length.
@@ -32,7 +33,7 @@ public class HoareSort extends Sort{
      * Checking int values occurs inside the int array e.
      * @link Sort#swap(int[], int, int)
      */
-    private int[] sort(int[] a, int aStart, int aEnd){
+    private static int[] sort(int[] a, int aStart, int aEnd){
 
         int half = aStart+(aEnd - aStart)/2;
         int basis = a[half];

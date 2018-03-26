@@ -12,7 +12,7 @@ public class Sort {
      * @param left  some int value from array.
      * @param right another int value from array.
      */
-       void swap(int[] a, int left, int right) {
+      static void swap(int[] a, int left, int right) {
         if (left != right) {
             int temp = a[left];
             a[left] = a[right];
